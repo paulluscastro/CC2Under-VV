@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/reset.css" media="screen" />
+  <link rel="stylesheet" href="css/materialize.min.css" media="screen" />
+  <link rel="stylesheet" href="css/main.css" media="screen" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <title>Camelcase to Underscore &amp; vice-versa</title>
+</head>
+  <nav>
+    <div class="nav-wrapper brown darken-4">
+      <a href="#" class="brand-logo">CC2Under&amp;VV</a>
+    </div>
+  </nav>
+  <div id="top">
+    <form class="col s12">
+      <div class="row">
+        <div class="col s12">
+          <span id="settings-title"><i class="material-icons">settings</i> <strong>Settings</strong></span>
+          <input name="conversion-type" type="radio" id="camelCase2Underscore" class="orange lighten-4" checked="checked"/> <label for="camelCase2Underscore">Camel Case <i class="material-icons tiny">trending_flat</i> Underscore</label>
+          <input name="conversion-type" type="radio" id="underscore2CamelCase" /> <label for="underscore2CamelCase">Underscore <i class="material-icons tiny">trending_flat</i> Camel Case</label>
+          <button type="button" name="button" class="btn right" id="convert">Convert</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div id="text">
+    <div id="left-panel">
+      <h3>Original text</h3>
+      <textarea name="original" id="original"></textarea>
+    </div>
+    <div id="right-panel">
+      <h3>Converted text</h3>
+      <textarea name="converted" id="converted"></textarea>
+    </div>
+  </div>
+
+
+  <script src="js/jquery-2.2.3.min.js"></script>
+  <script src="js/materialize.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

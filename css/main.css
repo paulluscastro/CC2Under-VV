@@ -1,0 +1,49 @@
+#settings {
+  display: block;
+  width: 100%;
+}
+
+#top {
+  width: 100%;
+  display: block;
+  padding-top: 12px;
+}
+
+#settings-title {
+  margin-right: 40px;
+}
+
+i.inverted {
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+  transform: rotate(180deg);
+}
+
+#text {
+  width: 100%;
+  height: calc(100% - 212px);
+  position: absolute;
+  display: flex;
+  flex: 1;
+}
+
+#left-panel,
+#right-panel {
+  height: 100%;
+  position: relative;
+  width: 50%;
+  padding: 12px;
+}
+#left-panel {
+  float: left;
+}
+
+#right-panel {
+  float: right;
+}
+
+#original,
+#converted {
+  height: 100%;
+  width: 100%;
+}
